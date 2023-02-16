@@ -24,7 +24,7 @@ const todoReducer = (state = initialState, action) => {
         }),
       };
     case SET_FILTER:
-      return { ...state, fliter: payload };
+      return { ...state, filter: payload };
     default:
       return state;
   }
